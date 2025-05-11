@@ -1,0 +1,23 @@
+{
+  "name": "saasify",
+  "version": "1.0.0",
+  "description": "\"custom web app\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "pug -w ./ -o ./html -P",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pug",
+    "gulp",
+    "html",
+    "css",
+    "javascript",
+    "sass"
+  ],
+  "author": "Akbarali",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.3"
+  }
+}

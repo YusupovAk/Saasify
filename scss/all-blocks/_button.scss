@@ -1,0 +1,32 @@
+$button-color: #fff;
+$button-background-color: #0073aa;
+$button-border-color: #4d3683; 
+$button-hover-color: #880ae8;
+$button-hover-background-color: #ae4aff;
+button {
+    color: $button-color;
+    background-color: $button-background-color;
+    border-color: $button-border-color;
+    &:hover {
+        color: $button-hover-color;
+        background-color: $button-hover-background-color;
+    }
+}
+ 
+ button {
+    color: #fff;
+    background-color: #0073aa;
+    border-color: #4d3683;
+ }
+.nav{
+    color: #fff;
+    background-color: #0073aa;
+    border-color: #4d3683;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    &:hover{
+        padding: 10px;
+    }
+}

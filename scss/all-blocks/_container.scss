@@ -1,0 +1,17 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  h1{
+    font-size: 24px;
+    justify-self: center;
+  }
+}
+.container_f {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    border-top: 1px solid #e9ecef;
+}
